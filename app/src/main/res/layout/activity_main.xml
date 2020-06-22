@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/menu"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/beginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/begin"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/helpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/help"
+            android:scaleType="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+
+        <ImageButton
+            android:id="@+id/scoreBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/score"
+            android:scaleType="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+    </LinearLayout>
+
+</LinearLayout>
